@@ -1,0 +1,14 @@
+{
+    "target_label": "Talk to Chef",
+
+    "menu_title": "Chef",
+    "menu_food_title": "Ask For Food",
+    "menu_food_description": "The Chef will cook you food",
+    "food_cooking": "The Chef is making food for you",
+    "food_eating": "Eating Burger",
+
+    "menu_drink_title": "Ask For a Drink",
+    "menu_drink_description": "The Chef will give you a drink",
+    "drink_cooking": "The Chef is making your drink",
+    "drink_eating": "Drinking"
+}
