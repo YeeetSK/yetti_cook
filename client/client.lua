@@ -73,11 +73,10 @@ for k, v in ipairs(Config.CookLocations) do
                                                     car = true,
                                                 },
                                                 anim = {
-                                                    { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+                                                    dict = 'mp_player_inteat@burger',
+                                                    clip = 'mp_player_int_eat_burger_fp' ,
                                                 },
-                                                prop = {
-                                                    { model = `prop_cs_burger_01`, pos = vec3(0.02, 0.02, -0.02), rot = vec3(0.0, 0.0, 0.0) },
-                                                }
+                                                prop = { model = `prop_cs_burger_01`, pos = vec3(0.02, 0.02, -0.02), rot = vec3(0.0, 0.0, 0.0) },
                                             }) then 
                                                 if Config.Framework == 'qb' then
                                                     TriggerServerEvent('consumables:server:addHunger', 100)
