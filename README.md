@@ -1,7 +1,7 @@
 Introducing a brand new script, *Yetti Cook*. Do you have mansions on your server? Do your players always have to go buy food during RP? This solves your problem, with our script you can create Private Chefs anywhere you would like them to be, mansions, public events, Police Departments....
 
 ## Links
-- [Cfx.re Forums](Once Approved)
+- [Cfx.re Forums](https://forum.cfx.re/t/free-yetti-cook/5236663)
 - [Showcase](https://www.youtube.com/watch?v=TXScgoRQJJU)
 - [Discord](https://discord.gg/mfJ7RJjwDq)
 
