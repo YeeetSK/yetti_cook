@@ -53,7 +53,7 @@ for k, v in ipairs(Config.CookLocations) do
                                     disabled = self.askedFood,
                                     onSelect = function()
                                         local foodmake = lib.progressCircle({
-                                            duration = 5000,
+                                            duration = Config.ProgressBar.foodMaking,
                                             position = 'bottom',
                                             useWhileDead = false,
                                             canCancel = false,
@@ -65,7 +65,7 @@ for k, v in ipairs(Config.CookLocations) do
                                     
                                         if foodmake then
                                             if lib.progressBar({
-                                                duration = 5000,
+                                                duration = Config.ProgressBar.foodEating,
                                                 label = locale("food_eating"),
                                                 useWhileDead = false,
                                                 canCancel = true,
@@ -103,7 +103,7 @@ for k, v in ipairs(Config.CookLocations) do
                                     disabled = self.askedDrink,
                                     onSelect = function()
                                         local foodmake = lib.progressCircle({
-                                            duration = 5000,
+                                            duration = Config.ProgressBar.drinkMaking,
                                             position = 'bottom',
                                             useWhileDead = false,
                                             canCancel = false,
@@ -115,7 +115,7 @@ for k, v in ipairs(Config.CookLocations) do
                                     
                                         if foodmake then
                                             if lib.progressBar({
-                                                duration = 5000,
+                                                duration = Config.ProgressBar.drinkDrinking,
                                                 label = locale("drink_eating"),
                                                 useWhileDead = false,
                                                 canCancel = true,

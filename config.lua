@@ -16,6 +16,13 @@ Config.CookLocations = { --Locations of cooks,
     -- { model = "s_m_m_linecook", coords = vector4(1, 2, 3, 4) },
 }
 
+Config.ProgressBar = { -- Time of progress bars, 1000 = 1 second
+    foodMaking = 15000, -- Chef Making Food
+    foodEating = 10000, -- Eating
+
+    drinkMaking = 15000, -- Chef Making Drink
+    drinkDrinking = 10000, -- Drinking
+}
 
 Config.TargetDistance = 3 -- Interact distance on target
 Config.TargetLabel = 'Ask For Food' -- Target Label
