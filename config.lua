@@ -4,7 +4,7 @@ Config.Debug = true
 
 Config.Framework = 'qb' -- Framework you use - 'qb' / 'esx'
 
-Config.Target = 'ox_target' -- Target type currently only - 'ox_target'
+Config.Target = 'ox_target' -- Target type  - 'ox_target' / 'qb-target'
 
 Config.DisplayDistance = 50 -- Distance where the peds get created at
 
